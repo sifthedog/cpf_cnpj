@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.version       = CPF::VERSION
 
+  spec.add_development_dependency "activemodel"
   spec.add_development_dependency "minitest-utils"
   spec.add_development_dependency "pry-meta"
   spec.add_development_dependency "rake"
